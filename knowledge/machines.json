@@ -1,12 +1,41 @@
 {
   "metadata": {
     "name": "CSVXpressSmart_AI machine catalog",
-    "version": "1.0",
+    "version": "1.1",
     "currency": "EUR",
     "prices_included": false,
-    "notes": "Technical knowledge base for AI recommendations. No prices included."
+    "notes": "Technical knowledge base for AI recommendations. No prices included. Equilibratrici compatibili con auto e SUV; scelta basata su volume, livello officina e automazione."
   },
   "smontagomme_auto": [
+    {
+      "model": "BASIC 224",
+      "category": "smontagomme a piatto",
+      "level": "entry_level",
+      "target": [
+        "piccola officina",
+        "carrozzeria"
+      ],
+      "vehicle_types": [
+        "auto"
+      ],
+      "workload": "basso_medio",
+      "runflat": "occasionale",
+      "uhp": "occasionale",
+      "cerchi_grandi": false,
+      "automation_level": "base",
+      "motor_options": [
+        "2 velocita"
+      ],
+      "recommended_accessories": [
+        "Helper Arm"
+      ],
+      "when_to_propose": [
+        "pochi cambi gomme al giorno",
+        "auto standard",
+        "cliente orientato a una soluzione semplice ma seria"
+      ],
+      "summary": "Smontagomme entry level a piatto con palo a molla, adatto a piccoli volumi."
+    },
     {
       "model": "F 524",
       "category": "smontagomme a piatto",
@@ -116,8 +145,8 @@
         "2 velocita"
       ],
       "recommended_accessories": [
-        "Helper Arm",
-        "accessori runflat"
+        "RF SYSTEM",
+        "MULTISYSTEM"
       ],
       "when_to_propose": [
         "gommista con lavoro frequente",
@@ -148,8 +177,8 @@
         "inverter"
       ],
       "recommended_accessories": [
-        "Helper Arm",
-        "kit runflat"
+        "RF SYSTEM",
+        "MULTISYSTEM"
       ],
       "when_to_propose": [
         "SUV",
@@ -161,7 +190,7 @@
     },
     {
       "model": "F 536S GT Racing",
-      "category": "smontagomme a piatto",
+      "category": "smontagomme a piatto da 26\"",
       "level": "professionale_evoluto",
       "target": [
         "gommista professionale"
@@ -179,8 +208,8 @@
         "inverter"
       ],
       "recommended_accessories": [
-        "Helper Arm",
-        "accessori runflat"
+        "RF SYSTEM",
+        "MULTISYSTEM"
       ],
       "when_to_propose": [
         "gommista con volumi medio-alti",
@@ -188,7 +217,10 @@
         "cerchi grandi",
         "lavori intensivi"
       ],
-      "summary": "Macchina evoluta per lavoro intensivo, SUV, UHP e cerchi grandi."
+      "summary": "Smontagomme a piatto da 26\" professionale evoluto, adatto a cerchi grandi e anche a piccole ruote agricole.",
+      "max_rim_inches": 26,
+      "max_wheel_height_inches": 15,
+      "small_agricultural_wheels": true
     },
     {
       "model": "F 528S GT MI",
@@ -211,8 +243,8 @@
         "inverter"
       ],
       "recommended_accessories": [
-        "Helper Arm",
-        "accessori runflat"
+        "RF SYSTEM",
+        "MULTISYSTEM"
       ],
       "when_to_propose": [
         "cliente che cerca ergonomia e comfort",
@@ -223,14 +255,15 @@
     },
     {
       "model": "CM 1200BB",
-      "category": "smontagomme evoluto",
+      "category": "smontagomme a platorello",
       "level": "evoluto",
       "target": [
         "gommista professionale"
       ],
       "vehicle_types": [
         "auto",
-        "SUV"
+        "SUV",
+        "furgoni"
       ],
       "workload": "alto",
       "runflat": "frequente",
@@ -238,12 +271,18 @@
       "cerchi_grandi": true,
       "automation_level": "alto",
       "motor_options": [],
-      "recommended_accessories": [],
+      "recommended_accessories": [
+        "disco distanziale ruote furgone"
+      ],
       "when_to_propose": [
         "lavorazioni impegnative",
         "cliente che chiede una macchina superiore"
       ],
-      "summary": "Macchina evoluta per lavorazioni più impegnative."
+      "summary": "Smontagomme a platorello con sollevatore ruota e helper laterale già inclusi, indicato anche per furgoni.",
+      "included_features": [
+        "sollevatore ruota",
+        "helper laterale"
+      ]
     },
     {
       "model": "LIGRO MI",
@@ -271,14 +310,15 @@
     },
     {
       "model": "PUMA MI",
-      "category": "smontagomme top gamma",
+      "category": "smontagomme a platorello top gamma",
       "level": "top_gamma",
       "target": [
         "gommista ad alto volume"
       ],
       "vehicle_types": [
         "auto",
-        "SUV"
+        "SUV",
+        "furgoni"
       ],
       "workload": "alto",
       "runflat": "molto_frequente",
@@ -286,14 +326,22 @@
       "cerchi_grandi": true,
       "automation_level": "massimo",
       "motor_options": [],
-      "recommended_accessories": [],
+      "recommended_accessories": [
+        "disco distanziale ruote furgone"
+      ],
       "when_to_propose": [
         "alto volume di lavoro",
         "pneumatici difficili",
         "cerchi grandi",
         "cliente che vuole il massimo livello di automazione"
       ],
-      "summary": "Top di gamma per alto volume, pneumatici difficili e minimo sforzo operatore."
+      "summary": "Smontagomme a platorello top gamma con sollevatore ruota incluso e helper laterale dedicato opzionale.",
+      "included_features": [
+        "sollevatore ruota"
+      ],
+      "optional_features": [
+        "helper laterale dedicato"
+      ]
     }
   ],
   "equilibratrici_auto": [
@@ -311,7 +359,18 @@
         "uso occasionale",
         "officina piccola"
       ],
-      "summary": "Equilibratrice semplice e affidabile per utilizzo base."
+      "summary": "Equilibratrice semplice e affidabile per utilizzo base.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 5B",
@@ -326,7 +385,18 @@
       "when_to_propose": [
         "uso base con richiesta di versione evoluta"
       ],
-      "summary": "Versione evoluta della MEC 5."
+      "summary": "Versione evoluta della MEC 5.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 10",
@@ -343,7 +413,18 @@
         "uso quotidiano",
         "cliente che cerca una macchina semplice e affidabile"
       ],
-      "summary": "Equilibratrice standard per uso quotidiano."
+      "summary": "Equilibratrice standard per uso quotidiano.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 10B",
@@ -359,7 +440,18 @@
       "when_to_propose": [
         "cliente che cerca una MEC 10 evoluta"
       ],
-      "summary": "Versione evoluta della MEC 10."
+      "summary": "Versione evoluta della MEC 10.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 10BL",
@@ -376,7 +468,18 @@
         "cliente che vuole maggiore velocità",
         "bloccaggio automatico"
       ],
-      "summary": "Equilibratrice più rapida e comoda grazie al bloccaggio automatico."
+      "summary": "Equilibratrice più rapida e comoda grazie al bloccaggio automatico.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 20",
@@ -392,7 +495,18 @@
       "when_to_propose": [
         "gommista con volumi medi"
       ],
-      "summary": "Equilibratrice intermedia per gommisti e volumi medi."
+      "summary": "Equilibratrice intermedia per gommisti e volumi medi.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 20L",
@@ -407,7 +521,18 @@
       "when_to_propose": [
         "cliente che cerca una MEC 20 più evoluta"
       ],
-      "summary": "Versione evoluta della MEC 20."
+      "summary": "Versione evoluta della MEC 20.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 200",
@@ -422,7 +547,18 @@
       "when_to_propose": [
         "gommista con richiesta di livello intermedio"
       ],
-      "summary": "Equilibratrice intermedia per uso professionale."
+      "summary": "Equilibratrice intermedia per uso professionale.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 200A",
@@ -437,7 +573,18 @@
       "when_to_propose": [
         "richiesta di versione evoluta della MEC 200"
       ],
-      "summary": "Versione evoluta della MEC 200."
+      "summary": "Versione evoluta della MEC 200.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 810",
@@ -453,7 +600,18 @@
         "gommista professionale",
         "volumi medio-alti"
       ],
-      "summary": "Equilibratrice professionale per volumi medio-alti."
+      "summary": "Equilibratrice professionale per volumi medio-alti.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 810VD",
@@ -468,7 +626,18 @@
       "when_to_propose": [
         "richiesta di versione più evoluta della MEC 810"
       ],
-      "summary": "Versione evoluta della MEC 810."
+      "summary": "Versione evoluta della MEC 810.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 810VDB",
@@ -484,7 +653,18 @@
         "gommista ad alto volume",
         "richiesta di maggiore automazione"
       ],
-      "summary": "Versione avanzata con maggiore automazione."
+      "summary": "Versione avanzata con maggiore automazione.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 810VDBL",
@@ -500,7 +680,18 @@
         "richiesta di bloccaggio automatico",
         "alto volume di lavoro"
       ],
-      "summary": "Versione avanzata con bloccaggio automatico."
+      "summary": "Versione avanzata con bloccaggio automatico.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 820",
@@ -517,7 +708,18 @@
         "officina professionale",
         "alto volume"
       ],
-      "summary": "Equilibratrice avanzata per utilizzo professionale intensivo."
+      "summary": "Equilibratrice avanzata per utilizzo professionale intensivo.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "MEC 820VDL",
@@ -533,7 +735,18 @@
       "when_to_propose": [
         "cliente che cerca una MEC 820 evoluta"
       ],
-      "summary": "Versione evoluta della MEC 820."
+      "summary": "Versione evoluta della MEC 820.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     },
     {
       "model": "Touch MEC 1000",
@@ -551,7 +764,18 @@
         "richiesta di massima automazione",
         "cliente top gamma"
       ],
-      "summary": "Equilibratrice top di gamma con touchscreen e massima automazione."
+      "summary": "Equilibratrice top di gamma con touchscreen e massima automazione.",
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "rim_size_selection_relevant": false,
+      "selection_basis": [
+        "volume di lavoro",
+        "livello officina",
+        "livello di automazione desiderato"
+      ],
+      "notes": "Equilibratrice adatta a auto e SUV; la scelta non dipende principalmente dal diametro cerchio."
     }
   ],
   "accessories": [
@@ -565,7 +789,14 @@
         "cerchi difficili",
         "volumi medi o alti"
       ],
-      "summary": "Braccio laterale di aiuto per pneumatici impegnativi."
+      "summary": "Braccio laterale di aiuto per pneumatici impegnativi.",
+      "compatible_models": [
+        "BASIC 224",
+        "F 524",
+        "F 524S",
+        "F 524 SW"
+      ],
+      "notes": "Braccio laterale di aiuto usato soprattutto su macchine entry level o configurazioni compatibili."
     },
     {
       "name": "Inverter",
@@ -584,7 +815,13 @@
         "runflat",
         "pneumatici rigidi"
       ],
-      "summary": "Sistema dedicato ai pneumatici runflat."
+      "summary": "Sistema dedicato ai pneumatici runflat.",
+      "compatible_models": [
+        "F 535",
+        "F 535S",
+        "F 536S GT Racing",
+        "F 528S GT MI"
+      ]
     },
     {
       "name": "Multi System",
@@ -593,7 +830,40 @@
         "cerchi complessi",
         "lavorazioni versatili"
       ],
-      "summary": "Sistema per lavorazioni più versatili su cerchi complessi."
+      "summary": "Sistema per lavorazioni più versatili su cerchi complessi.",
+      "compatible_models": [
+        "F 535",
+        "F 535S",
+        "F 536S GT Racing",
+        "F 528S GT MI"
+      ]
+    },
+    {
+      "name": "Disco distanziale ruote furgone",
+      "category": "accessorio platorello",
+      "compatible_models": [
+        "CM 1200BB",
+        "PUMA MI"
+      ],
+      "recommended_for": [
+        "furgoni",
+        "veicoli commerciali",
+        "Daily"
+      ],
+      "summary": "Accessorio consigliato per montare e smontare ruote di furgoni e veicoli commerciali."
+    },
+    {
+      "name": "Helper laterale dedicato PUMA",
+      "category": "supporto smontagomme a platorello",
+      "compatible_models": [
+        "PUMA MI"
+      ],
+      "recommended_for": [
+        "SUV",
+        "runflat",
+        "furgoni"
+      ],
+      "summary": "Helper laterale dedicato opzionale consigliato per PUMA MI."
     }
   ],
   "recommendation_rules": [
@@ -607,7 +877,7 @@
         "runflat": "no"
       },
       "then": {
-        "smontagomme": "F 524",
+        "smontagomme": "BASIC 224",
         "equilibratrice": "MEC 10",
         "accessories": []
       }
@@ -624,7 +894,7 @@
         "smontagomme": "F 535S",
         "equilibratrice": "MEC 10BL",
         "accessories": [
-          "Helper Arm"
+          "RF SYSTEM"
         ]
       }
     },
@@ -641,7 +911,22 @@
         "smontagomme": "F 536S GT Racing",
         "equilibratrice": "MEC 810",
         "accessories": [
-          "Helper Arm"
+          "MULTISYSTEM"
+        ]
+      }
+    },
+    {
+      "if": {
+        "vehicle_types": [
+          "furgoni"
+        ],
+        "workload": "medio_alto"
+      },
+      "then": {
+        "smontagomme": "CM 1200BB",
+        "equilibratrice": "MEC 810",
+        "accessories": [
+          "disco distanziale ruote furgone"
         ]
       }
     }

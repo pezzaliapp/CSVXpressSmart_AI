@@ -42,7 +42,7 @@ Caratteristiche principali:
 - maggiore comodità e rapidità d’uso
 - configurabile con motore a 2 velocità oppure inverter
 - più adatta a lavori frequenti e più impegnativi
-- può essere integrata con Helper Arm
+- usa helper professionali come RF SYSTEM o MULTISYSTEM
 
 Versioni:
 - 2 velocità
@@ -59,62 +59,112 @@ Punti forti:
 - più comfort operativo
 - impostazione più professionale
 
-## Helper Arm
-Descrizione:
-Braccio laterale di aiuto utile in particolare con:
-- runflat
-- UHP
-- pneumatici rigidi
-- cerchi impegnativi
+### F 536S GT Racing
+Categoria: professionale evoluta
 
-Quando proporlo:
-- se il cliente lavora spesso su runflat
-- se il cliente fa un numero importante di cambi gomme
-- se il cliente tratta SUV o cerchi importanti
-- se vuole ridurre fatica e aumentare praticità
+Caratteristiche principali:
+- smontagomme a piatto da 26"
+- lavora fino a 15" in altezza ruota
+- adatto anche a piccole ruote agricole
+- indicato per cerchi grandi e lavori più impegnativi
+- usa helper professionali come RF SYSTEM o MULTISYSTEM
 
-## Smontagomme con platorello
+Quando proporla:
+- cliente che lavora su SUV
+- cliente che lavora su runflat frequenti
+- cerchi grandi
+- lavoro più intenso
+- piccole ruote agricole
+
+### Smontagomme con platorello
 Categoria: più evoluta
+
+Modelli principali:
+- CM 1200BB
+- PUMA MI
 
 Descrizione:
 - soluzione più professionale
 - adatta a lavorazioni più impegnative o ripetitive
-- utile quando il cliente tratta gomme più difficili o cerca una soluzione superiore
+- utile quando il cliente tratta gomme più difficili, SUV, runflat e anche furgoni
 
-Regola conversazionale:
-Se il cliente chiede una soluzione molto professionale o lavora molto su pneumatici difficili, il bot può introdurre la categoria "con platorello", ma senza inventare modelli se non ancora presenti nella knowledge base.
+Caratteristiche chiave:
+- CM 1200BB include già sollevatore ruota e helper laterale
+- PUMA MI include già sollevatore ruota e può avere helper laterale dedicato come opzionale
+- per entrambi può essere consigliato il disco distanziale per ruote furgone
+
+Quando introdurre il platorello:
+- cliente che lavora spesso su furgoni o veicoli commerciali
+- cliente che cerca una macchina superiore
+- cliente con lavori molto impegnativi e ripetitivi
+
+## Accessori helper
+
+### Helper Arm
+Descrizione:
+Braccio laterale di aiuto utile soprattutto su macchine entry level come Basic 224.
+
+Quando proporlo:
+- runflat occasionali
+- UHP occasionali
+- cerchi più impegnativi rispetto all'uso standard
+
+### RF SYSTEM
+Descrizione:
+Helper professionale per pneumatici runflat, UHP e ribassati.
+
+Compatibilità tipica:
+- F 535S
+- F 536S GT Racing
+
+### MULTISYSTEM
+Descrizione:
+Helper avanzato per lavorazioni più versatili su runflat e ribassati.
+
+Compatibilità tipica:
+- F 535S
+- F 536S GT Racing
 
 ## Logica di proposta
+
 ### Se il cliente dice:
 - piccola officina
 - pochi cambi gomme
 - lavoro standard
-→ orientamento: Basic 224
+→ orientamento: Basic 224 oppure F 524
 
 ### Se il cliente dice:
 - gommista
 - SUV
 - runflat
 - volume medio o alto
-→ orientamento: F 535S
+→ orientamento: F 535S con RF SYSTEM o MULTISYSTEM
 
 ### Se il cliente dice:
 - molti runflat
 - lavoro più evoluto
-- macchina superiore
-→ orientamento: F 535S con Helper Arm
-oppure introdurre categoria con platorello
+- cerchi grandi
+→ orientamento: F 536S GT Racing con RF SYSTEM o MULTISYSTEM
+
+### Se il cliente dice:
+- furgoni
+- veicoli commerciali
+- Daily
+→ orientamento: categoria a platorello (CM 1200BB o PUMA MI)
 
 ## Linguaggio suggerito
 Il bot non deve parlare in modo troppo tecnico.
 Deve spiegare differenze in modo semplice.
 
-Esempio corretto:
+Esempi corretti:
 - Basic 224: soluzione più semplice, adatta a piccoli volumi
 - F 535S: macchina più professionale, più adatta a lavori frequenti e impegnativi
+- F 536S GT Racing: smontagomme a piatto più evoluto per cerchi grandi e lavori più intensi
+- CM 1200BB / PUMA MI: soluzioni a platorello per lavori molto impegnativi e furgoni
 
 ## Cosa NON fare
 - Non inventare modelli non presenti in questa base
 - Non inventare prezzi
 - Non promettere disponibilità
-- Non usare parole troppo generiche senza collegarle al tipo di utilizzo
+- Non associare helper o bracci laterali alle equilibratrici
+- Non confondere F 536S GT Racing con uno smontagomme a platorello

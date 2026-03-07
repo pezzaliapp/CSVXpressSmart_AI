@@ -26,7 +26,7 @@ Questa domanda aiuta a capire il livello di macchina necessario e la tecnologia 
 
 # SMONTAGOMME AUTO
 
-## Smontagomme a piatto — Entry Level
+## Smontagomme a piatto — Entry level
 
 ### BASIC 224
 
@@ -34,10 +34,9 @@ Categoria:
 smontagomme a piatto entry level
 
 Target:
-- officine meccaniche
+- piccole officine meccaniche
 - carrozzerie
-- piccoli gommisti
-- volumi medio-bassi
+- attività con volumi bassi o medio-bassi
 
 Caratteristiche:
 - palo che scende sul piatto con sistema a molla
@@ -49,51 +48,128 @@ Accessori compatibili:
 
 Note tecniche:
 - l'Helper Arm è il braccio laterale opzionale di aiuto per BASIC 224
-- utile per pneumatici più impegnativi rispetto all'uso standard
+- è utile quando il lavoro standard incontra occasionalmente runflat, UHP o cerchi più impegnativi
 
 Quando proporlo:
-- officina generica
-- pochi cambi gomme
 - auto standard
-- cliente orientato a una soluzione semplice
+- pochi cambi gomme al giorno
+- cliente orientato a una soluzione semplice ma seria
+
+---
+
+### F 524
+
+Categoria:
+smontagomme a piatto entry level
+
+Target:
+- officine meccaniche
+- carrozzerie
+- piccoli gommisti
+
+Caratteristiche:
+- macchina semplice e affidabile
+- motore 2 velocità
+- funzionamento classico a piatto
+
+Accessori compatibili:
+- Helper Arm (se presenti esigenze occasionali su pneumatici più impegnativi)
+
+Quando proporla:
+- auto standard
+- volumi medio-bassi
+- officina generica
+
+---
+
+### F 524S
+
+Categoria:
+entry level evoluto
+
+Target:
+- officine
+- piccoli gommisti
+
+Caratteristiche:
+- macchina più robusta
+- buona versatilità
+
+Accessori compatibili:
+- Helper Arm
+
+---
+
+### F 524 SW
+
+Categoria:
+entry level professionale
+
+Target:
+- officine con un po’ più di lavoro
+- piccoli gommisti
+
+Caratteristiche:
+- macchina più completa
+- maggiore stabilità operativa
+
+Accessori compatibili:
+- Helper Arm
 
 ---
 
 ## Smontagomme a piatto — Professionale
 
-### F 535S
+### F 535
 
 Categoria:
-smontagomme a piatto professionale
+professionale
 
 Target:
 - gommisti
-- officine con volumi medio-alti
-- SUV
-- runflat
-- UHP
+- officine con volumi medi
 
 Caratteristiche:
-- palo / braccio di lavoro pneumatico
+- macchina più robusta
 - maggiore produttività
-- macchina più rapida e professionale
+
+Accessori compatibili:
+- RF SYSTEM
+- MULTISYSTEM
+
+---
+
+### F 535S
+
+Categoria:
+professionale avanzata
+
+Target:
+- gommisti
+- officine con SUV
+- presenza di pneumatici runflat
+- volumi medi o medio-alti
+
+Caratteristiche:
+- braccio/palo pneumatico
+- maggiore velocità operativa
 
 Motorizzazione configurabile:
 - 2 velocità
-- inverter
+- inverter (controllo modulato)
 
 Accessori compatibili:
 - RF SYSTEM
 - MULTISYSTEM
 
 Note tecniche:
-- RF SYSTEM e MULTISYSTEM sono helper / bracci laterali professionali
-- servono per facilitare il lavoro su pneumatici runflat, UHP e ribassati
+- RF SYSTEM e MULTISYSTEM sono helper / bracci laterali professionali per runflat, UHP e pneumatici ribassati
+- non vanno confusi con l'Helper Arm del BASIC 224
 
-Quando proporlo:
+Quando proporla:
 - SUV
 - runflat frequenti
-- volume di lavoro medio o medio-alto
+- 15–30 cambi gomme giorno
 - cliente che vuole una macchina professionale a piatto
 
 ---
@@ -123,9 +199,9 @@ Accessori compatibili:
 Note tecniche:
 - non è uno smontagomme a platorello
 - è uno smontagomme a piatto
-- indicato per cerchi grandi e utilizzi più impegnativi
+- è indicato per cerchi grandi e utilizzi più impegnativi
 
-Quando proporlo:
+Quando proporla:
 - SUV
 - cerchi grandi
 - runflat
@@ -134,9 +210,28 @@ Quando proporlo:
 
 ---
 
+### F 528S GT MI
+
+Categoria:
+professionale avanzata
+
+Target:
+- gommisti
+- lavoro frequente su SUV
+
+Caratteristiche:
+- macchina ergonomica
+- maggiore comfort operatore
+
+Accessori compatibili:
+- RF SYSTEM
+- MULTISYSTEM
+
+---
+
 # SMONTAGOMME A PLATORELLO
 
-## CM1200 BB
+### CM 1200BB
 
 Categoria:
 smontagomme a platorello
@@ -160,7 +255,7 @@ Accessori consigliati:
 - disco distanziale per ruote furgone
 
 Note tecniche:
-- il disco distanziale è consigliato per smontare e montare ruote di furgoni
+- il disco distanziale è consigliato per smontare e montare ruote di furgoni e veicoli commerciali
 - esempio tipico: Iveco Daily
 
 Quando proporlo:
@@ -171,7 +266,7 @@ Quando proporlo:
 
 ---
 
-## PUMA
+### PUMA MI
 
 Categoria:
 smontagomme a platorello top gamma
@@ -208,48 +303,116 @@ Quando proporlo:
 
 ---
 
-# EQUILIBRATRICI / BILANCIATRICI AUTO
-
-## MEC 10
+### LIGRO MI
 
 Categoria:
-equilibratrice standard
+alta gamma
+
+Uso tipico:
+- gommisti professionali
+- lavori intensivi
+
+Caratteristiche:
+- maggiore automazione
+- maggiore comfort operatore
+
+---
+
+# EQUILIBRATRICI / BILANCIATRICI AUTO E SUV
+
+## Regola generale
+
+Le equilibratrici Cormach vanno bene sia per **auto** sia per **SUV**.
+La scelta della bilanciatrice dipende soprattutto da:
+- livello dell'officina
+- volume di lavoro
+- livello di automazione desiderato
+
+La dimensione del cerchio non è normalmente il criterio principale di scelta della equilibratrice.
+
+Le equilibratrici non utilizzano helper, RF SYSTEM, MULTISYSTEM o bracci laterali.
+
+---
+
+## Livello base
+
+### MEC 5
+
+Uso tipico:
+- piccole officine
+- uso occasionale
+
+Veicoli:
+- auto
+- SUV
+
+Caratteristiche:
+- semplice
+- affidabile
+
+---
+
+### MEC 5B
+
+Versione evoluta MEC 5.
+
+Veicoli:
+- auto
+- SUV
+
+---
+
+### MEC 10
+
+Categoria:
+standard officina
 
 Target:
 - officine meccaniche
 - piccoli gommisti
 
-Caratteristiche:
-- semplice
-- affidabile
-- adatta all'uso quotidiano
+Veicoli:
+- auto
+- SUV
 
-Note tecniche:
-- equilibratrice e bilanciatrice sono sinonimi
-- non usa helper o bracci laterali
+Caratteristiche:
+- equilibratrice semplice
+- affidabile
+- uso quotidiano
 
 Quando proporla:
 - uso standard
-- officina
+- officina meccanica
 - piccoli volumi o volumi medi
 
 ---
 
-## MEC 10BL
+### MEC 10B
+
+Versione evoluta MEC 10.
+
+Veicoli:
+- auto
+- SUV
+
+---
+
+### MEC 10BL
 
 Categoria:
-equilibratrice standard avanzata
+standard avanzato
 
 Target:
 - officine con più lavoro
 - gommisti
 
+Veicoli:
+- auto
+- SUV
+
 Caratteristiche:
 - bloccaggio automatico
-- maggiore velocità e comodità operativa
-
-Note tecniche:
-- non usa helper o bracci laterali
+- maggiore velocità operativa
 
 Quando proporla:
 - cliente che vuole più comfort o velocità
@@ -257,26 +420,60 @@ Quando proporla:
 
 ---
 
-## MEC 810
+## Livello intermedio
 
-Categoria:
-equilibratrice professionale
+### MEC 20
+### MEC 20L
+### MEC 200
+### MEC 200A
 
-Target:
+Uso tipico:
+- gommisti
+- officine con volumi medi
+
+Veicoli:
+- auto
+- SUV
+
+---
+
+## Livello professionale
+
+### MEC 810
+### MEC 810VD
+### MEC 810VDB
+### MEC 810VDBL
+
+Uso tipico:
 - gommisti professionali
 - volumi medio-alti
 
+Veicoli:
+- auto
+- SUV
+
+---
+
+## Livello avanzato
+
+### MEC 820
+### MEC 820VDL
+### Touch MEC 1000
+
+Categoria:
+top gamma
+
 Caratteristiche:
-- livello professionale
-- adatta a contesti con maggiore produttività
+- touchscreen
+- maggiore automazione
 
-Note tecniche:
-- non usa helper o bracci laterali
+Uso tipico:
+- centri pneumatici
+- officine ad alto volume
 
-Quando proporla:
-- gommista
-- volume di lavoro medio-alto
-- abbinamento a smontagomme professionali
+Veicoli:
+- auto
+- SUV
 
 ---
 
@@ -289,10 +486,12 @@ braccio laterale di aiuto
 
 Compatibilità:
 - BASIC 224
+- F 524 / F 524S / F 524 SW quando presenti configurazioni compatibili
 
 Utilità:
-- aiuta il lavoro su pneumatici più impegnativi
-- utile su runflat occasionali o UHP occasionali
+- runflat occasionali
+- UHP occasionali
+- cerchi più impegnativi
 
 Nota:
 - da associare solo a smontagomme
@@ -306,9 +505,10 @@ Tipo:
 helper professionale / braccio laterale di aiuto
 
 Compatibilità:
+- F 535
 - F 535S
 - F 536S GT Racing
-- altri smontagomme a piatto professionali compatibili
+- F 528S GT MI
 
 Utilità:
 - runflat
@@ -327,9 +527,10 @@ Tipo:
 helper avanzato / braccio laterale di aiuto
 
 Compatibilità:
+- F 535
 - F 535S
 - F 536S GT Racing
-- altri smontagomme a piatto professionali compatibili
+- F 528S GT MI
 
 Utilità:
 - runflat
@@ -342,14 +543,30 @@ Nota:
 
 ---
 
+## Inverter
+
+Tipo:
+controllo elettronico della velocità del motore
+
+Utilità:
+- maggiore precisione
+- maggiore comfort operatore
+
+Compatibilità tipica:
+- F 535S
+- F 536S GT Racing
+- altri modelli compatibili a catalogo
+
+---
+
 ## Sollevatore ruota
 
 Tipo:
 accessorio / dotazione per ruote impegnative
 
 Compatibilità:
-- incluso su CM1200 BB
-- incluso su PUMA
+- incluso su CM 1200BB
+- incluso su PUMA MI
 
 Utilità:
 - facilita la gestione di ruote pesanti o ingombranti
@@ -362,29 +579,12 @@ Tipo:
 accessorio consigliato
 
 Compatibilità:
-- CM1200 BB
-- PUMA
+- CM 1200BB
+- PUMA MI
 
 Utilità:
 - consigliato per montare e smontare ruote di furgoni
 - utile per veicoli commerciali come Daily
-
-Nota:
-- accessorio importante quando il cliente lavora su furgoni
-
----
-
-# REGOLE TECNICHE IMPORTANTI PER L'ASSISTENTE AI
-
-- Gli helper sono accessori per smontagomme, non per equilibratrici.
-- Helper Arm, RF SYSTEM e MULTISYSTEM non devono mai essere associati a MEC 10, MEC 10BL, MEC 810 o ad altre equilibratrici.
-- BASIC 224 usa come helper il solo Helper Arm.
-- F 535S e F 536S GT Racing possono usare RF SYSTEM o MULTISYSTEM.
-- CM1200 BB e PUMA sono gli smontagomme a platorello.
-- F 536S GT Racing non è uno smontagomme a platorello.
-- CM1200 BB include già sollevatore ruota e helper laterale.
-- PUMA include già il sollevatore ruota e ha come opzionale consigliato il suo helper laterale dedicato.
-- Per CM1200 BB e PUMA si consiglia il disco distanziale per ruote furgone se il cliente lavora su veicoli commerciali.
 
 ---
 
@@ -413,6 +613,7 @@ Durante la conversazione l'assistente dovrebbe raccogliere queste informazioni:
    - UHP
 
 5. Dimensione cerchi più frequente
+   - utile soprattutto per scegliere lo smontagomme
 
 6. Preferenza tecnologia
    - a piatto
@@ -428,8 +629,8 @@ Durante la conversazione l'assistente dovrebbe raccogliere queste informazioni:
 # LOGICA DI PROPOSTA RAPIDA
 
 Caso tipico 1:
-officina semplice + pochi cambi gomme + auto standard
-→ BASIC 224 + MEC 10
+piccola officina + pochi cambi gomme + auto standard
+→ BASIC 224 oppure F 524 + MEC 10
 
 Caso tipico 2:
 SUV + runflat + volume medio
@@ -441,17 +642,27 @@ SUV + cerchi grandi + volume medio-alto
 
 Caso tipico 4:
 SUV + furgoni + veicoli commerciali
-→ CM1200 BB + disco distanziale + MEC 810 oppure equilibratrice da definire
+→ CM 1200BB + disco distanziale + MEC 810 oppure equilibratrice da definire
 
 Caso tipico 5:
 richiesta top gamma su SUV / runflat / furgoni
-→ PUMA + helper laterale dedicato + disco distanziale
+→ PUMA MI + helper laterale dedicato + disco distanziale + MEC 820 o Touch MEC 1000
 
 ---
 
-# BLOCCO FINALE PER L'OPERATORE
+# REGOLE PER L'ASSISTENTE AI
 
-Quando l'assistente ha abbastanza informazioni deve generare il blocco:
+L'assistente deve:
+
+- non inventare modelli non presenti nel catalogo
+- non inventare prezzi
+- non promettere disponibilità
+- fare una domanda alla volta
+- usare le informazioni già fornite dal cliente
+- associare helper e bracci laterali solo agli smontagomme
+- considerare le equilibratrici compatibili con auto e SUV
+
+Quando ha abbastanza dati deve generare il blocco:
 
 [SUGGERIMENTO PER PREVENTIVO]
 

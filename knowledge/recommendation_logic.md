@@ -4,9 +4,9 @@ Questo file definisce la logica che CSVXpressSmart_AI deve usare per trasformare
 
 L'assistente deve usare questa logica insieme a:
 
-- `catalogo_macchine.md`
-- `machines.json`
-- `system_prompt_v2.md`
+- `catalogo_macchine.md` per il contesto tecnico leggibile
+- `machines.json` per i dati strutturati
+- `system_prompt_v2.md` per lo stile conversazionale
 
 ---
 
@@ -124,10 +124,12 @@ considera uso standard.
 considera:
 - pneumatici più impegnativi
 - cerchi spesso più grandi
-- maggiore probabilità di helper o accessori dedicati
+- maggiore probabilità di accessori dedicati sullo smontagomme
 
 ### Se il cliente dice:
 - furgoni
+- veicoli commerciali
+- Daily
 
 considera:
 - utilizzo più impegnativo
@@ -150,7 +152,7 @@ allora:
 
 Regola accessori:
 - BASIC 224 → Helper Arm
-- F 535S / F 536S GT Racing → RF SYSTEM oppure MULTISYSTEM
+- F 535 / F 535S / F 536S GT Racing / F 528S GT MI → RF SYSTEM oppure MULTISYSTEM
 - equilibratrici → nessun helper
 
 ---
@@ -197,6 +199,10 @@ considera:
 - maggiore utilità di macchine professionali
 - possibile passaggio a F 536S GT Racing o macchine superiori
 
+La dimensione del cerchio è utile soprattutto per scegliere lo smontagomme.
+
+Non è normalmente necessaria per scegliere la equilibratrice, perché le equilibratrici Cormach gestiscono normalmente anche auto e SUV fino a circa 30".
+
 ---
 
 ## Tecnologia macchina
@@ -206,15 +212,20 @@ considera:
 
 proponi macchine a piatto:
 - BASIC 224
+- F 524
+- F 524S
+- F 524 SW
+- F 535
 - F 535S
 - F 536S GT Racing
+- F 528S GT MI
 
 ### Se il cliente preferisce:
 - a platorello
 
 proponi solo:
-- CM1200 BB
-- PUMA
+- CM 1200BB
+- PUMA MI
 
 ---
 
@@ -229,7 +240,7 @@ Se il cliente è:
 - no runflat
 
 proposta tipica:
-- Smontagomme: BASIC 224
+- Smontagomme: BASIC 224 oppure F 524
 - Equilibratrice: MEC 10
 - Opzioni: nessuna oppure Helper Arm opzionale
 
@@ -285,7 +296,7 @@ Se il cliente dice:
 - ruote più impegnative
 
 proposta tipica:
-- Smontagomme: CM1200 BB
+- Smontagomme: CM 1200BB
 - Equilibratrice: MEC 810 oppure da definire
 - Opzioni: disco distanziale per ruote furgone
 
@@ -305,8 +316,8 @@ Se il cliente cerca:
 - volumi alti
 
 proposta tipica:
-- Smontagomme: PUMA
-- Equilibratrice: MEC 810 oppure soluzione avanzata
+- Smontagomme: PUMA MI
+- Equilibratrice: MEC 820 oppure Touch MEC 1000
 - Opzioni: helper laterale dedicato, disco distanziale
 
 Motivazione:
@@ -315,19 +326,14 @@ Motivazione:
 
 ---
 
-# REGOLE SUGLI ACCESSORI
-
-- Gli helper devono essere associati solo allo smontagomme.
-- Non associare mai Helper Arm, RF SYSTEM o MULTISYSTEM a equilibratrici.
-- BASIC 224 usa Helper Arm.
-- F 535S e F 536S GT Racing usano RF SYSTEM o MULTISYSTEM.
-- CM1200 BB include già sollevatore ruota e helper laterale.
-- PUMA include già sollevatore ruota; il suo helper laterale è opzionale consigliato.
-- CM1200 BB e PUMA possono richiedere disco distanziale per ruote furgone.
-
----
-
 # LOGICA PER LE EQUILIBRATRICI
+
+Le equilibratrici Cormach vanno bene sia per auto sia per SUV.
+
+La scelta dipende soprattutto da:
+- volume di lavoro
+- livello officina
+- livello di automazione desiderato
 
 ## Se il cliente cerca semplicità
 proporre:
@@ -341,8 +347,13 @@ proporre:
 proporre:
 - MEC 810
 
+## Se il cliente è un gommista ad alto volume o cerca più automazione
+proporre:
+- MEC 820
+- Touch MEC 1000
+
 ## Le equilibratrici non usano helper
-mai associare bracci laterali o helper a MEC 10, MEC 10BL, MEC 810
+mai associare bracci laterali o helper a MEC 10, MEC 10BL, MEC 810, MEC 820 o Touch MEC 1000
 
 ---
 
@@ -395,6 +406,29 @@ Opzioni utili:
 
 Note:
 <breve spiegazione tecnica>
+
+---
+
+# ESEMPIO CORRETTO
+
+Cliente:
+"Lavoriamo soprattutto su SUV e runflat, circa 20 cambi gomme al giorno"
+
+Risposta corretta:
+
+CONFIGURAZIONE CONSIGLIATA
+
+Smontagomme:
+F 535S
+
+Equilibratrice:
+MEC 10BL
+
+Opzioni utili:
+RF SYSTEM
+
+Note:
+Configurazione adatta a un utilizzo medio-alto con SUV e pneumatici runflat.
 
 ---
 
