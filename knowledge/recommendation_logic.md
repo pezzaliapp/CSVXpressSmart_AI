@@ -4,9 +4,9 @@ Questo file definisce la logica che CSVXpressSmart_AI deve usare per trasformare
 
 L'assistente deve usare questa logica insieme a:
 
-- `catalogo_macchine.md` per il contesto tecnico leggibile
-- `machines.json` per i dati strutturati
-- `system_prompt_v2.md` per lo stile conversazionale
+- `catalogo_macchine.md`
+- `machines.json`
+- `system_prompt_v2.md`
 
 ---
 
@@ -17,9 +17,10 @@ L'obiettivo non è fare un preventivo.
 L'obiettivo è:
 
 1. capire il tipo di officina
-2. capire il livello di lavoro
-3. capire il tipo di pneumatici
-4. proporre una configurazione coerente
+2. capire il tipo di veicoli
+3. capire il volume di lavoro
+4. capire se ci sono runflat / UHP / cerchi grandi
+5. proporre una configurazione coerente
 
 ---
 
@@ -29,9 +30,9 @@ L'assistente non deve proporre macchine casuali.
 
 Deve proporre il modello più sensato in base alle informazioni raccolte.
 
-Se mancano troppe informazioni, deve fare UNA sola domanda alla volta.
+Se mancano troppe informazioni deve fare UNA sola domanda alla volta.
 
-Se invece ha già abbastanza elementi, deve smettere di fare domande e proporre una configurazione.
+Se invece ha già abbastanza elementi deve smettere di fare domande e proporre una configurazione.
 
 ---
 
@@ -63,10 +64,9 @@ Le informazioni più importanti sono:
    - standard
    - grandi / impegnativi
 
-6. livello macchina desiderato
-   - entry level
-   - professionale
-   - evoluto
+6. preferenza tecnologia
+   - a piatto
+   - a platorello
 
 ---
 
@@ -124,12 +124,15 @@ considera uso standard.
 considera:
 - pneumatici più impegnativi
 - cerchi spesso più grandi
-- maggiore probabilità di accessori utili
+- maggiore probabilità di helper o accessori dedicati
 
 ### Se il cliente dice:
 - furgoni
 
-considera un utilizzo più impegnativo rispetto ad auto standard.
+considera:
+- utilizzo più impegnativo
+- possibile necessità di macchina a platorello
+- possibile necessità di disco distanziale
 
 ---
 
@@ -142,8 +145,13 @@ considera un utilizzo più impegnativo rispetto ad auto standard.
 - gomme ribassate
 
 allora:
-- Helper Arm diventa consigliato
-- la macchina non deve essere entry level base, salvo uso molto occasionale
+- la macchina non deve essere entry level base salvo uso molto occasionale
+- servono accessori di aiuto solo sullo smontagomme
+
+Regola accessori:
+- BASIC 224 → Helper Arm
+- F 535S / F 536S GT Racing → RF SYSTEM oppure MULTISYSTEM
+- equilibratrici → nessun helper
 
 ---
 
@@ -187,7 +195,26 @@ interpreta:
 considera:
 - lavoro più impegnativo
 - maggiore utilità di macchine professionali
-- maggiore probabilità di accessori runflat / helper arm
+- possibile passaggio a F 536S GT Racing o macchine superiori
+
+---
+
+## Tecnologia macchina
+
+### Se il cliente preferisce:
+- a piatto
+
+proponi macchine a piatto:
+- BASIC 224
+- F 535S
+- F 536S GT Racing
+
+### Se il cliente preferisce:
+- a platorello
+
+proponi solo:
+- CM1200 BB
+- PUMA
 
 ---
 
@@ -202,7 +229,7 @@ Se il cliente è:
 - no runflat
 
 proposta tipica:
-- Smontagomme: F 524
+- Smontagomme: BASIC 224
 - Equilibratrice: MEC 10
 - Opzioni: nessuna oppure Helper Arm opzionale
 
@@ -218,48 +245,85 @@ Se il cliente dice:
 proposta tipica:
 - Smontagomme: F 535S
 - Equilibratrice: MEC 10BL
-- Opzioni: Helper Arm
+- Opzioni: RF SYSTEM oppure MULTISYSTEM
 
 Motivazione:
-- macchina più professionale
+- macchina a piatto professionale
 - adatta a SUV
-- utile con runflat
+- adatta a runflat
 - equilibratrice più rapida
 
 ---
 
-## Caso 3 — gommista professionale, molti runflat, cerchi grandi
+## Caso 3 — gommista professionale, runflat frequenti, cerchi grandi
 
 Se il cliente dice:
 - gommista
 - runflat frequenti
 - cerchi grandi
-- volume alto
+- volume medio-alto o alto
 
 proposta tipica:
 - Smontagomme: F 536S GT Racing
 - Equilibratrice: MEC 810
-- Opzioni: Helper Arm
+- Opzioni: RF SYSTEM oppure MULTISYSTEM
 
 Motivazione:
 - uso professionale
-- volumi medio-alti
-- pneumatici e cerchi impegnativi
+- cerchi grandi
+- pneumatici impegnativi
+- lavoro più intenso
 
 ---
 
-## Caso 4 — richiesta top gamma / massimo comfort
+## Caso 4 — cliente che lavora anche su furgoni / veicoli commerciali
+
+Se il cliente dice:
+- furgoni
+- Daily
+- veicoli commerciali
+- ruote più impegnative
+
+proposta tipica:
+- Smontagomme: CM1200 BB
+- Equilibratrice: MEC 810 oppure da definire
+- Opzioni: disco distanziale per ruote furgone
+
+Motivazione:
+- macchina a platorello
+- già dotata di sollevatore ruota e helper laterale
+- più adatta a furgoni e ruote impegnative
+
+---
+
+## Caso 5 — top gamma a platorello
 
 Se il cliente cerca:
 - massima automazione
 - top gamma
+- lavoro su SUV, runflat e furgoni
 - volumi alti
-- pneumatici difficili
 
 proposta tipica:
-- Smontagomme: PUMA MI oppure LIGRO MI
-- Equilibratrice: Touch MEC 1000 oppure MEC 820
-- Opzioni: accessori dedicati
+- Smontagomme: PUMA
+- Equilibratrice: MEC 810 oppure soluzione avanzata
+- Opzioni: helper laterale dedicato, disco distanziale
+
+Motivazione:
+- macchina top gamma a platorello
+- indicata per utilizzi impegnativi
+
+---
+
+# REGOLE SUGLI ACCESSORI
+
+- Gli helper devono essere associati solo allo smontagomme.
+- Non associare mai Helper Arm, RF SYSTEM o MULTISYSTEM a equilibratrici.
+- BASIC 224 usa Helper Arm.
+- F 535S e F 536S GT Racing usano RF SYSTEM o MULTISYSTEM.
+- CM1200 BB include già sollevatore ruota e helper laterale.
+- PUMA include già sollevatore ruota; il suo helper laterale è opzionale consigliato.
+- CM1200 BB e PUMA possono richiedere disco distanziale per ruote furgone.
 
 ---
 
@@ -276,11 +340,9 @@ proporre:
 ## Se il cliente è un gommista con volumi più alti
 proporre:
 - MEC 810
-- MEC 820
 
-## Se il cliente cerca top gamma
-proporre:
-- Touch MEC 1000
+## Le equilibratrici non usano helper
+mai associare bracci laterali o helper a MEC 10, MEC 10BL, MEC 810
 
 ---
 
@@ -296,7 +358,7 @@ Non deve proporre 5 macchine insieme.
 
 Deve proporre:
 - una soluzione principale
-- eventualmente una alternativa superiore o inferiore solo se utile
+- eventualmente una alternativa più evoluta solo se utile
 
 ---
 
@@ -313,33 +375,26 @@ Equilibratrice:
 <modello oppure da definire>
 
 Opzioni utili:
-<helper arm / inverter / accessori runflat>
+<solo accessori coerenti con lo smontagomme>
 
 Note:
 <breve spiegazione tecnica basata sul tipo di officina, veicoli, volume e pneumatici>
 
----
+Se utile puoi aggiungere:
 
-# ESEMPIO CORRETTO
-
-Cliente:
-"Lavoriamo soprattutto su SUV e runflat, circa 20 cambi gomme al giorno"
-
-Risposta corretta:
-
-CONFIGURAZIONE CONSIGLIATA
+CONFIGURAZIONE ALTERNATIVA PIÙ EVOLUTA
 
 Smontagomme:
-F 535S
+<modello>
 
 Equilibratrice:
-MEC 10BL
+<modello oppure da definire>
 
 Opzioni utili:
-Helper Arm
+<solo accessori coerenti>
 
 Note:
-Configurazione adatta a un utilizzo medio-alto con SUV e pneumatici runflat.
+<breve spiegazione tecnica>
 
 ---
 
@@ -348,9 +403,11 @@ Configurazione adatta a un utilizzo medio-alto con SUV e pneumatici runflat.
 L'assistente non deve:
 
 - inventare modelli non presenti nel catalogo
+- inventare codici se non certi
+- associare helper a equilibratrici
+- confondere smontagomme a piatto con platorello
 - proporre macchine incompatibili con il livello di lavoro
 - tornare a fare domande già coperte
-- restare troppo generico dopo avere abbastanza informazioni
 - sembrare un chatbot standard
 
 ---
