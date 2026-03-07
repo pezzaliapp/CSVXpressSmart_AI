@@ -1,0 +1,649 @@
+{
+  "metadata": {
+    "name": "CSVXpressSmart_AI machine catalog",
+    "version": "1.0",
+    "currency": "EUR",
+    "prices_included": false,
+    "notes": "Technical knowledge base for AI recommendations. No prices included."
+  },
+  "smontagomme_auto": [
+    {
+      "model": "F 524",
+      "category": "smontagomme a piatto",
+      "level": "entry_level",
+      "target": [
+        "officina meccanica",
+        "carrozzeria",
+        "piccolo gommista"
+      ],
+      "vehicle_types": [
+        "auto"
+      ],
+      "workload": "basso_medio",
+      "runflat": "occasionale",
+      "uhp": "occasionale",
+      "cerchi_grandi": false,
+      "automation_level": "base",
+      "motor_options": [
+        "2 velocita"
+      ],
+      "recommended_accessories": [
+        "Helper Arm"
+      ],
+      "when_to_propose": [
+        "pochi cambi gomme al giorno",
+        "officina generica",
+        "budget orientato a una soluzione semplice"
+      ],
+      "summary": "Macchina semplice e affidabile per officine e piccoli volumi."
+    },
+    {
+      "model": "F 524S",
+      "category": "smontagomme a piatto",
+      "level": "entry_level_evoluto",
+      "target": [
+        "officina meccanica",
+        "piccolo gommista"
+      ],
+      "vehicle_types": [
+        "auto"
+      ],
+      "workload": "medio",
+      "runflat": "occasionale",
+      "uhp": "occasionale",
+      "cerchi_grandi": false,
+      "automation_level": "base",
+      "motor_options": [
+        "2 velocita"
+      ],
+      "recommended_accessories": [
+        "Helper Arm"
+      ],
+      "when_to_propose": [
+        "officina con un po' piu lavoro",
+        "cliente che cerca una macchina semplice ma piu robusta"
+      ],
+      "summary": "Versione più robusta ed evoluta per uso officina."
+    },
+    {
+      "model": "F 524 SW",
+      "category": "smontagomme a piatto",
+      "level": "entry_level_professionale",
+      "target": [
+        "officina meccanica",
+        "piccolo gommista"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "medio",
+      "runflat": "occasionale",
+      "uhp": "occasionale",
+      "cerchi_grandi": true,
+      "automation_level": "base",
+      "motor_options": [
+        "2 velocita"
+      ],
+      "recommended_accessories": [
+        "Helper Arm",
+        "accessori runflat"
+      ],
+      "when_to_propose": [
+        "officine con piu lavoro",
+        "cliente che vuole maggiore versatilita"
+      ],
+      "summary": "Macchina più completa e versatile per utilizzo più frequente."
+    },
+    {
+      "model": "F 535",
+      "category": "smontagomme a piatto",
+      "level": "professionale",
+      "target": [
+        "gommista",
+        "officina con volumi medi"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "medio",
+      "runflat": "medio",
+      "uhp": "medio",
+      "cerchi_grandi": true,
+      "automation_level": "professionale",
+      "motor_options": [
+        "2 velocita"
+      ],
+      "recommended_accessories": [
+        "Helper Arm",
+        "accessori runflat"
+      ],
+      "when_to_propose": [
+        "gommista con lavoro frequente",
+        "richiesta di macchina più robusta"
+      ],
+      "summary": "Macchina professionale per uso frequente e maggiore produttività."
+    },
+    {
+      "model": "F 535S",
+      "category": "smontagomme a piatto",
+      "level": "professionale_avanzato",
+      "target": [
+        "gommista",
+        "officina con SUV",
+        "officina con runflat"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "medio_alto",
+      "runflat": "frequente",
+      "uhp": "frequente",
+      "cerchi_grandi": true,
+      "automation_level": "professionale",
+      "motor_options": [
+        "2 velocita",
+        "inverter"
+      ],
+      "recommended_accessories": [
+        "Helper Arm",
+        "kit runflat"
+      ],
+      "when_to_propose": [
+        "SUV",
+        "runflat frequenti",
+        "15-30 cambi gomme al giorno",
+        "cliente che vuole una macchina professionale"
+      ],
+      "summary": "Macchina professionale avanzata con maggiore produttività e opzione inverter."
+    },
+    {
+      "model": "F 536S GT Racing",
+      "category": "smontagomme a piatto",
+      "level": "professionale_evoluto",
+      "target": [
+        "gommista professionale"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "alto",
+      "runflat": "frequente",
+      "uhp": "frequente",
+      "cerchi_grandi": true,
+      "automation_level": "avanzato",
+      "motor_options": [
+        "inverter"
+      ],
+      "recommended_accessories": [
+        "Helper Arm",
+        "accessori runflat"
+      ],
+      "when_to_propose": [
+        "gommista con volumi medio-alti",
+        "pneumatici performanti",
+        "cerchi grandi",
+        "lavori intensivi"
+      ],
+      "summary": "Macchina evoluta per lavoro intensivo, SUV, UHP e cerchi grandi."
+    },
+    {
+      "model": "F 528S GT MI",
+      "category": "smontagomme a piatto",
+      "level": "professionale_avanzato",
+      "target": [
+        "gommista",
+        "officina con SUV"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "medio_alto",
+      "runflat": "frequente",
+      "uhp": "frequente",
+      "cerchi_grandi": true,
+      "automation_level": "avanzato",
+      "motor_options": [
+        "inverter"
+      ],
+      "recommended_accessories": [
+        "Helper Arm",
+        "accessori runflat"
+      ],
+      "when_to_propose": [
+        "cliente che cerca ergonomia e comfort",
+        "SUV",
+        "runflat"
+      ],
+      "summary": "Macchina avanzata con maggiore ergonomia e comfort operativo."
+    },
+    {
+      "model": "CM 1200BB",
+      "category": "smontagomme evoluto",
+      "level": "evoluto",
+      "target": [
+        "gommista professionale"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "alto",
+      "runflat": "frequente",
+      "uhp": "frequente",
+      "cerchi_grandi": true,
+      "automation_level": "alto",
+      "motor_options": [],
+      "recommended_accessories": [],
+      "when_to_propose": [
+        "lavorazioni impegnative",
+        "cliente che chiede una macchina superiore"
+      ],
+      "summary": "Macchina evoluta per lavorazioni più impegnative."
+    },
+    {
+      "model": "LIGRO MI",
+      "category": "smontagomme alta gamma",
+      "level": "alta_gamma",
+      "target": [
+        "gommista professionale"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "alto",
+      "runflat": "frequente",
+      "uhp": "frequente",
+      "cerchi_grandi": true,
+      "automation_level": "molto_alto",
+      "motor_options": [],
+      "recommended_accessories": [],
+      "when_to_propose": [
+        "lavori intensivi",
+        "cliente che vuole maggiore automazione"
+      ],
+      "summary": "Macchina alta gamma con maggiore automazione e comfort operatore."
+    },
+    {
+      "model": "PUMA MI",
+      "category": "smontagomme top gamma",
+      "level": "top_gamma",
+      "target": [
+        "gommista ad alto volume"
+      ],
+      "vehicle_types": [
+        "auto",
+        "SUV"
+      ],
+      "workload": "alto",
+      "runflat": "molto_frequente",
+      "uhp": "molto_frequente",
+      "cerchi_grandi": true,
+      "automation_level": "massimo",
+      "motor_options": [],
+      "recommended_accessories": [],
+      "when_to_propose": [
+        "alto volume di lavoro",
+        "pneumatici difficili",
+        "cerchi grandi",
+        "cliente che vuole il massimo livello di automazione"
+      ],
+      "summary": "Top di gamma per alto volume, pneumatici difficili e minimo sforzo operatore."
+    }
+  ],
+  "equilibratrici_auto": [
+    {
+      "model": "MEC 5",
+      "category": "equilibratrice",
+      "level": "base",
+      "target": [
+        "piccola officina"
+      ],
+      "workload": "basso",
+      "automation_level": "base",
+      "locking": "manuale",
+      "when_to_propose": [
+        "uso occasionale",
+        "officina piccola"
+      ],
+      "summary": "Equilibratrice semplice e affidabile per utilizzo base."
+    },
+    {
+      "model": "MEC 5B",
+      "category": "equilibratrice",
+      "level": "base_evoluta",
+      "target": [
+        "piccola officina"
+      ],
+      "workload": "basso_medio",
+      "automation_level": "base",
+      "locking": "manuale",
+      "when_to_propose": [
+        "uso base con richiesta di versione evoluta"
+      ],
+      "summary": "Versione evoluta della MEC 5."
+    },
+    {
+      "model": "MEC 10",
+      "category": "equilibratrice",
+      "level": "standard",
+      "target": [
+        "officina meccanica",
+        "piccolo gommista"
+      ],
+      "workload": "medio",
+      "automation_level": "standard",
+      "locking": "manuale",
+      "when_to_propose": [
+        "uso quotidiano",
+        "cliente che cerca una macchina semplice e affidabile"
+      ],
+      "summary": "Equilibratrice standard per uso quotidiano."
+    },
+    {
+      "model": "MEC 10B",
+      "category": "equilibratrice",
+      "level": "standard_evoluta",
+      "target": [
+        "officina meccanica",
+        "piccolo gommista"
+      ],
+      "workload": "medio",
+      "automation_level": "standard",
+      "locking": "manuale",
+      "when_to_propose": [
+        "cliente che cerca una MEC 10 evoluta"
+      ],
+      "summary": "Versione evoluta della MEC 10."
+    },
+    {
+      "model": "MEC 10BL",
+      "category": "equilibratrice",
+      "level": "standard_avanzata",
+      "target": [
+        "officina con più lavoro",
+        "gommista"
+      ],
+      "workload": "medio_alto",
+      "automation_level": "standard_avanzato",
+      "locking": "automatico",
+      "when_to_propose": [
+        "cliente che vuole maggiore velocità",
+        "bloccaggio automatico"
+      ],
+      "summary": "Equilibratrice più rapida e comoda grazie al bloccaggio automatico."
+    },
+    {
+      "model": "MEC 20",
+      "category": "equilibratrice",
+      "level": "intermedio",
+      "target": [
+        "gommista",
+        "officina con volumi medi"
+      ],
+      "workload": "medio",
+      "automation_level": "intermedio",
+      "locking": "manuale",
+      "when_to_propose": [
+        "gommista con volumi medi"
+      ],
+      "summary": "Equilibratrice intermedia per gommisti e volumi medi."
+    },
+    {
+      "model": "MEC 20L",
+      "category": "equilibratrice",
+      "level": "intermedio_evoluto",
+      "target": [
+        "gommista"
+      ],
+      "workload": "medio",
+      "automation_level": "intermedio",
+      "locking": "manuale",
+      "when_to_propose": [
+        "cliente che cerca una MEC 20 più evoluta"
+      ],
+      "summary": "Versione evoluta della MEC 20."
+    },
+    {
+      "model": "MEC 200",
+      "category": "equilibratrice",
+      "level": "intermedio",
+      "target": [
+        "gommista"
+      ],
+      "workload": "medio",
+      "automation_level": "intermedio",
+      "locking": "manuale",
+      "when_to_propose": [
+        "gommista con richiesta di livello intermedio"
+      ],
+      "summary": "Equilibratrice intermedia per uso professionale."
+    },
+    {
+      "model": "MEC 200A",
+      "category": "equilibratrice",
+      "level": "intermedio_evoluto",
+      "target": [
+        "gommista"
+      ],
+      "workload": "medio",
+      "automation_level": "intermedio",
+      "locking": "manuale",
+      "when_to_propose": [
+        "richiesta di versione evoluta della MEC 200"
+      ],
+      "summary": "Versione evoluta della MEC 200."
+    },
+    {
+      "model": "MEC 810",
+      "category": "equilibratrice",
+      "level": "professionale",
+      "target": [
+        "gommista professionale"
+      ],
+      "workload": "medio_alto",
+      "automation_level": "professionale",
+      "locking": "manuale",
+      "when_to_propose": [
+        "gommista professionale",
+        "volumi medio-alti"
+      ],
+      "summary": "Equilibratrice professionale per volumi medio-alti."
+    },
+    {
+      "model": "MEC 810VD",
+      "category": "equilibratrice",
+      "level": "professionale_evoluta",
+      "target": [
+        "gommista professionale"
+      ],
+      "workload": "medio_alto",
+      "automation_level": "professionale",
+      "locking": "manuale",
+      "when_to_propose": [
+        "richiesta di versione più evoluta della MEC 810"
+      ],
+      "summary": "Versione evoluta della MEC 810."
+    },
+    {
+      "model": "MEC 810VDB",
+      "category": "equilibratrice",
+      "level": "professionale_avanzata",
+      "target": [
+        "gommista professionale"
+      ],
+      "workload": "alto",
+      "automation_level": "professionale_avanzato",
+      "locking": "automatico",
+      "when_to_propose": [
+        "gommista ad alto volume",
+        "richiesta di maggiore automazione"
+      ],
+      "summary": "Versione avanzata con maggiore automazione."
+    },
+    {
+      "model": "MEC 810VDBL",
+      "category": "equilibratrice",
+      "level": "professionale_avanzata",
+      "target": [
+        "gommista professionale"
+      ],
+      "workload": "alto",
+      "automation_level": "professionale_avanzato",
+      "locking": "automatico",
+      "when_to_propose": [
+        "richiesta di bloccaggio automatico",
+        "alto volume di lavoro"
+      ],
+      "summary": "Versione avanzata con bloccaggio automatico."
+    },
+    {
+      "model": "MEC 820",
+      "category": "equilibratrice",
+      "level": "avanzata",
+      "target": [
+        "officina professionale",
+        "gommista ad alto volume"
+      ],
+      "workload": "alto",
+      "automation_level": "avanzato",
+      "locking": "automatico",
+      "when_to_propose": [
+        "officina professionale",
+        "alto volume"
+      ],
+      "summary": "Equilibratrice avanzata per utilizzo professionale intensivo."
+    },
+    {
+      "model": "MEC 820VDL",
+      "category": "equilibratrice",
+      "level": "avanzata",
+      "target": [
+        "officina professionale",
+        "gommista ad alto volume"
+      ],
+      "workload": "alto",
+      "automation_level": "avanzato",
+      "locking": "automatico",
+      "when_to_propose": [
+        "cliente che cerca una MEC 820 evoluta"
+      ],
+      "summary": "Versione evoluta della MEC 820."
+    },
+    {
+      "model": "Touch MEC 1000",
+      "category": "equilibratrice",
+      "level": "top_gamma",
+      "target": [
+        "centro pneumatici",
+        "gommista professionale"
+      ],
+      "workload": "alto",
+      "automation_level": "massimo",
+      "locking": "automatico",
+      "when_to_propose": [
+        "alto volume di lavoro",
+        "richiesta di massima automazione",
+        "cliente top gamma"
+      ],
+      "summary": "Equilibratrice top di gamma con touchscreen e massima automazione."
+    }
+  ],
+  "accessories": [
+    {
+      "name": "Helper Arm",
+      "category": "supporto smontagomme",
+      "recommended_for": [
+        "runflat",
+        "UHP",
+        "SUV",
+        "cerchi difficili",
+        "volumi medi o alti"
+      ],
+      "summary": "Braccio laterale di aiuto per pneumatici impegnativi."
+    },
+    {
+      "name": "Inverter",
+      "category": "motorizzazione",
+      "recommended_for": [
+        "uso professionale",
+        "controllo piu preciso",
+        "maggiore comfort operatore"
+      ],
+      "summary": "Controllo elettronico della velocità del motore."
+    },
+    {
+      "name": "RF System",
+      "category": "kit runflat",
+      "recommended_for": [
+        "runflat",
+        "pneumatici rigidi"
+      ],
+      "summary": "Sistema dedicato ai pneumatici runflat."
+    },
+    {
+      "name": "Multi System",
+      "category": "accessorio versatilita",
+      "recommended_for": [
+        "cerchi complessi",
+        "lavorazioni versatili"
+      ],
+      "summary": "Sistema per lavorazioni più versatili su cerchi complessi."
+    }
+  ],
+  "recommendation_rules": [
+    {
+      "if": {
+        "activity": [
+          "officina meccanica",
+          "carrozzeria"
+        ],
+        "workload": "basso",
+        "runflat": "no"
+      },
+      "then": {
+        "smontagomme": "F 524",
+        "equilibratrice": "MEC 10",
+        "accessories": []
+      }
+    },
+    {
+      "if": {
+        "vehicle_types": [
+          "SUV"
+        ],
+        "runflat": "si",
+        "workload": "medio"
+      },
+      "then": {
+        "smontagomme": "F 535S",
+        "equilibratrice": "MEC 10BL",
+        "accessories": [
+          "Helper Arm"
+        ]
+      }
+    },
+    {
+      "if": {
+        "activity": [
+          "gommista"
+        ],
+        "runflat": "frequente",
+        "cerchi_grandi": true,
+        "workload": "alto"
+      },
+      "then": {
+        "smontagomme": "F 536S GT Racing",
+        "equilibratrice": "MEC 810",
+        "accessories": [
+          "Helper Arm"
+        ]
+      }
+    }
+  ]
+}
